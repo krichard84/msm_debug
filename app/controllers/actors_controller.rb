@@ -24,7 +24,6 @@ class ActorsController < ApplicationController
 
   def edit_form
     @actor = Actor.find(params[:id])
-    
   end
 
   def update_row
